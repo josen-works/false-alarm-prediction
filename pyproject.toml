@@ -1,0 +1,12 @@
+[project]
+name = "false-alarm-prediction"
+version = "0.1.0"
+description = "Classify factory sensor alarms (CO2, humidity, temperature, ...) as real or false"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
